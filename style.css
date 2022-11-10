@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(41, 99, 81);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(33, 129, 84, 0.555);
+}
+.display {
+  height: 10rem;
+  width: 20rem;
+  background-color: rgb(243, 41, 41);
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  font-size: 4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+}
+div {
+  background-color: white;
+  max-width: 20rem;
+  padding: 2rem;
+}
+main {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(160deg, white 50%, red 50%);
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  height: 92vh;
+  width: 6 2%;
+  max-width: 400px;
+}
+.button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  border-bottom-right-radius: 00.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+button {
+  padding: 1.2rem 1.5rem;
+  border: none;
+  border-radius: 50%;
+  font-size: larger;
+  font-weight: 600;
+  background-color: rgba(236, 228, 228, 0.904);
+}
+
+.red {
+  background-color: rgb(243, 41, 41);
+  color: white;
+  border: none;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  color: red;
+  background-color: aliceblue;
+}
